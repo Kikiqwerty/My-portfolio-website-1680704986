@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio website">
+  <title>My Portfolio | Mint</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home"><span class="logo-heart">♡</span> My Portfolio</a>
+      <div class="nav-links">
+        <a href="#home">Home</a><a href="#about">About Me</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <span class="eyebrow">HELLO, I'M</span>
+        <h1>Mint<span class="pink-dot">.</span></h1>
+        <h2>Computer Science Student</h2>
+        <p class="school">Bangkok University</p>
+        <p class="intro">I'm interested in web development, design, and creating simple solutions with technology.</p>
+        <div class="hero-actions"><a class="btn primary" href="#projects">View My Projects ↗</a><a class="btn secondary" href="#about">About Me</a></div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-frame"><img src="profile.jpg" alt="My profile photo" onerror="this.style.display='none';this.parentElement.classList.add('no-photo')"><span class="photo-placeholder">YOUR<br>PHOTO ♡</span></div>
+        <span class="decoration decor-one">✳</span><span class="decoration decor-two">♡</span>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading"><span class="section-number">01</span><h2>About Me</h2></div>
+      <div class="about-card">
+        <div class="about-intro"><h3>A little about me</h3><p>I'm a Computer Science student at Bangkok University. I enjoy learning new technologies, exploring creative ideas, and improving my skills through projects.</p></div>
+        <div class="about-details"><div><span class="detail-icon">✦</span><div><strong>Education</strong><p>Computer Science · Bangkok University</p></div></div><div><span class="detail-icon">♡</span><div><strong>Interests</strong><p>Web Development, UI Design, Data</p></div></div><div><span class="detail-icon">☼</span><div><strong>Hobbies</strong><p>Music, Movies, Reading</p></div></div></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-heading"><span class="section-number">02</span><h2>My Skills</h2></div>
+      <p class="section-subtitle">Tools and technologies I'm learning and using.</p>
+      <div class="skills-grid"><div class="skill-card"><span>⌘</span>HTML</div><div class="skill-card"><span>✧</span>CSS</div><div class="skill-card"><span>🐍</span>Python</div><div class="skill-card"><span>▤</span>SQL</div><div class="skill-card"><span>✿</span>Canva</div><div class="skill-card"><span>⌨</span>VS Code</div></div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-heading"><span class="section-number">03</span><h2>My Projects</h2></div>
+      <p class="section-subtitle">A few things I've worked on.</p>
+      <div class="projects-grid">
+        <article class="project-card"><div class="project-preview preview-one"><span>CAFÉ WEBSITE</span><div class="mini-browser"><div class="mini-line"></div><div class="mini-photo">☕</div></div></div><div class="project-info"><h3>Cafe Website</h3><p>A simple responsive website for a coffee shop.</p><div class="tags"><span>HTML</span><span>CSS</span></div></div></article>
+        <article class="project-card"><div class="project-preview preview-two"><span>DATA DASHBOARD</span><div class="bars"><i></i><i></i><i></i><i></i><i></i></div></div><div class="project-info"><h3>Data Analysis</h3><p>A small data visualization project using Python.</p><div class="tags"><span>Python</span><span>Data</span></div></div></article>
+        <article class="project-card"><div class="project-preview preview-three"><span>WEB DESIGN</span><div class="product-tiles"><i>✿</i><i>♡</i><i>✦</i></div></div><div class="project-info"><h3>Website Design</h3><p>A clean and user-friendly website concept.</p><div class="tags"><span>HTML</span><span>CSS</span></div></div></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact-section">
+      <div class="section-heading"><span class="section-number">04</span><h2>Contact</h2></div>
+      <div class="contact-card"><p>Let's keep in touch ♡</p><div class="contact-links"><a href="mailto:yourname@example.com">✉ yourname@example.com</a><a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">⌘ github.com/yourusername</a></div></div>
+    </section>
+  </main>
+  <footer class="footer">© 2026 Mint · Made with ♡</footer>
+</body>
+</html>
